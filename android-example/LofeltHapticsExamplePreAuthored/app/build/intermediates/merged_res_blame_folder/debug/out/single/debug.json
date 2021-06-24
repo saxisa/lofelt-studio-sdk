@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/raw_stroke_haptic.haptic.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/raw/stroke_haptic.haptic"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/raw_achievement_audio.wav.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/raw/achievement_audio.wav"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/raw_stroke_audio.wav.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/raw/stroke_audio.wav"
+    },
+    {
+        "merged": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/build/intermediates/res/merged/debug/raw_achievement_haptic.haptic.flat",
+        "source": "/Users/lofelt/Junk/sdk-releases/sdk-1.2.0-public/android-examples/android/LofeltHapticsExamplePreAuthored/app/src/main/res/raw/achievement_haptic.haptic"
+    }
+]

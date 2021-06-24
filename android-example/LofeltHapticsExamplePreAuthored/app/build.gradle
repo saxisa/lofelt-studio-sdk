@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.lofelt.LofeltHapticsExamplePreAuthored"
+        minSdkVersion 26
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    // Specify the NDK version so that the stripDebugDebugSymbols build task works correctly
+    android.ndkVersion "21.3.6528147"
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        // generate to the CLI a text report of issues
+        textReport true
+        // treat all warnings as errors
+        warningsAsErrors true
+        // disables warnings for newer versions of dependencies
+        disable 'GradleDependency'
+    }
+}
+
+dependencies {
+    implementation "commons-io:commons-io:2.8.0"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation files('libs/LofeltHaptics.aar')
+}
