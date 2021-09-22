@@ -34,7 +34,7 @@ struct ContentView: View {
                         audioPlayer = try? AVAudioPlayer(data: audioData!.data)
                         
                         // load haptic clip
-                        try? haptics?.load(self.loadHapticData(fileName: "Achievement_1.haptic"))
+                        try? haptics?.load(from: self.loadHapticData(fileName: "Achievement_1.haptic"))
                         
                         // play audio and haptic clip
                         audioPlayer?.play()
@@ -55,7 +55,7 @@ struct ContentView: View {
                         audioPlayer = try? AVAudioPlayer(data: audioData!.data)
                         
                         // load haptic clip
-                        try? haptics?.load(self.loadHapticData(fileName: "Stroke_1.haptic"))
+                        try? haptics?.load(from: self.loadHapticData(fileName: "Stroke_1.haptic"))
                         
                         // play audio and haptic clip
                         audioPlayer?.play()
@@ -80,10 +80,9 @@ struct ContentView: View {
         }
     }
     
-    func loadHapticData(fileName: String) -> String {
+    func loadHapticData(fileName: String) -> Data {
         let hapticData = NSDataAsset(name: fileName)
-        let dataString = NSString(data: hapticData!.data , encoding: String.Encoding.utf8.rawValue)
-        return dataString! as String
+        return hapticData!.data
     }
 }
 

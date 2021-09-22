@@ -27,9 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Load audio clip
             final MediaPlayer mediaPlayer = MediaPlayer.create(this, soundClipResourceId);
-            mediaPlayer.setOnCompletionListener(player -> {
-                player.release();
-            });
+            mediaPlayer.setOnCompletionListener(MediaPlayer::release);
 
             // Play both
             mediaPlayer.start();
@@ -48,21 +46,17 @@ public class MainActivity extends AppCompatActivity {
 
         haptics = new LofeltHaptics(this);
 
-        final Button achievementButton = (Button) findViewById(R.id.button_achievement);
-        final Button strokeButton = (Button) findViewById(R.id.button_stroke);
+        final Button achievementButton = findViewById(R.id.button_achievement);
+        final Button strokeButton = findViewById(R.id.button_stroke);
 
         if (haptics.deviceMeetsMinimumRequirements()) {
-            achievementButton.setOnClickListener(view -> {
-                loadAndPlayClip(R.raw.achievement_haptic, R.raw.achievement_audio);
-            });
+            achievementButton.setOnClickListener(view -> loadAndPlayClip(R.raw.achievement_haptic, R.raw.achievement_audio));
 
-            strokeButton.setOnClickListener(view -> {
-                loadAndPlayClip(R.raw.stroke_haptic, R.raw.stroke_audio);
-            });
+            strokeButton.setOnClickListener(view -> loadAndPlayClip(R.raw.stroke_haptic, R.raw.stroke_audio));
         } else {
             achievementButton.setVisibility(View.INVISIBLE);
             strokeButton.setVisibility(View.INVISIBLE);
-            final TextView textUnsupportedDevice = (TextView) findViewById(R.id.textViewUnsupportedDevice);
+            final TextView textUnsupportedDevice = findViewById(R.id.textViewUnsupportedDevice);
             textUnsupportedDevice.setVisibility(View.VISIBLE);
         }
     }

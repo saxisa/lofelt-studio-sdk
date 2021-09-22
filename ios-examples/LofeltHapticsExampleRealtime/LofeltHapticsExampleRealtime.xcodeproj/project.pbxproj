@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A49D0B526839045004FCA3A /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A49D0B32683903D004FCA3A /* LofeltHaptics.xcframework */; };
-		4A49D0B626839045004FCA3A /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A49D0B32683903D004FCA3A /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4A6BE74024BDA5620071E3D6 /* OP-Z.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BE73F24BDA5620071E3D6 /* OP-Z.wav */; };
+		4A767BF726FA358C00CAA892 /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A767BF526FA357800CAA892 /* LofeltHaptics.xcframework */; };
+		4A767BF826FA358C00CAA892 /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A767BF526FA357800CAA892 /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		73B3AC9024B8C704007E56D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B3AC8F24B8C704007E56D3 /* AppDelegate.swift */; };
 		73B3AC9224B8C704007E56D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B3AC9124B8C704007E56D3 /* SceneDelegate.swift */; };
 		73B3AC9424B8C704007E56D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B3AC9324B8C704007E56D3 /* ContentView.swift */; };
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4A49D0B626839045004FCA3A /* LofeltHaptics.xcframework in Embed Frameworks */,
+				4A767BF826FA358C00CAA892 /* LofeltHaptics.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,8 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A49D0B32683903D004FCA3A /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LofeltHaptics.xcframework; sourceTree = "<group>"; };
 		4A6BE73F24BDA5620071E3D6 /* OP-Z.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "OP-Z.wav"; sourceTree = "<group>"; };
+		4A767BF526FA357800CAA892 /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LofeltHaptics.xcframework; path = LofeltHapticsExampleRealtime/Frameworks/LofeltHaptics.xcframework; sourceTree = "<group>"; };
 		73B3AC8C24B8C704007E56D3 /* LofeltHapticsExampleRealtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LofeltHapticsExampleRealtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B3AC8F24B8C704007E56D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B3AC9124B8C704007E56D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,29 +50,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A49D0B526839045004FCA3A /* LofeltHaptics.xcframework in Frameworks */,
+				4A767BF726FA358C00CAA892 /* LofeltHaptics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A49D0B22683903D004FCA3A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4A49D0B32683903D004FCA3A /* LofeltHaptics.xcframework */,
-			);
-			name = Frameworks;
-			path = LofeltHapticsExampleRealtime/Frameworks;
-			sourceTree = "<group>";
-		};
 		73B3AC8324B8C704007E56D3 = {
 			isa = PBXGroup;
 			children = (
 				73B3ACAE24B8DA85007E56D3 /* Resources */,
 				73B3AC8E24B8C704007E56D3 /* LofeltHapticsExampleRealtime */,
 				73B3AC8D24B8C704007E56D3 /* Products */,
-				4A49D0B22683903D004FCA3A /* Frameworks */,
+				73B3ACA324B8D468007E56D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +95,14 @@
 				73B3AC9824B8C705007E56D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73B3ACA324B8D468007E56D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A767BF526FA357800CAA892 /* LofeltHaptics.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		73B3ACAE24B8DA85007E56D3 /* Resources */ = {
@@ -142,7 +141,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Lofelt GmbH";
 				TargetAttributes = {
 					73B3AC8B24B8C704007E56D3 = {
@@ -233,6 +232,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -294,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -331,7 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LofeltHapticsExampleRealtime/Preview Content\"";
 				DEVELOPMENT_TEAM = 9Q4R2TA9L4;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LofeltHapticsExampleRealtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,7 +354,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LofeltHapticsExampleRealtime/Preview Content\"";
 				DEVELOPMENT_TEAM = 9Q4R2TA9L4;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LofeltHapticsExampleRealtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

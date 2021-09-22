@@ -2,7 +2,7 @@
 
 # Lofelt Studio SDK
 [![Twitter: @lofelt](https://img.shields.io/badge/contact-@lofelt-blue.svg?style=flat)](https://twitter.com/lofelt)
-![Lofelt Studio SDK version](https://img.shields.io/badge/version-v1.2.0-red)
+![Lofelt Studio SDK version](https://img.shields.io/badge/version-v1.3.1-red)
 ![Integrations](https://img.shields.io/badge/integrations-ios%20%7C%20android%20%7C%20unity-lightgrey)
 
 HD haptic playback for iOS, Android and Unity
@@ -17,7 +17,7 @@ Lofelt Studio SDK provides multiple integrations for playing HD vibrotactile hap
 [Documentation]
 
 ## Integrations 💻
-[iOS](https://github.com/Lofelt/lofelt-studio-sdk/releases/ "iOS") • [Android](https://github.com/Lofelt/lofelt-studio-sdk/releases/ "Android") • [Unity](https://assetstore.unity.com/packages/tools/integration/lofelt-studio-hd-haptics-for-mobile-191144 "Unity")
+[iOS](https://github.com/Lofelt/lofelt-studio-sdk/releases/ "iOS") • [Android](https://github.com/Lofelt/lofelt-studio-sdk/releases/ "Android") • [Nice Vibrations for Unity](https://assetstore.unity.com/packages/tools/integration/nice-vibrations-by-lofelt-hd-haptic-feedback-for-mobile-and-game-197444 "Unity")
 
 ## Community Integrations 🧡
 [Flutter](https://github.com/jgrandchavin/lofelt)
@@ -28,7 +28,7 @@ Community integrations interfacing with our iOS framework and Android library ar
 We currently support Lofelt's universal `.haptic` format.
 
 ## Devices 📱
-Currently supported (both for Unity):
+Currently supported (both in Nice Vibrations for Unity):
 * iPhone 8+ running iOS 13+
 * Android phones running Android 8+. More about Android support in our [device requirements](https://developer.lofelt.com/01-welcome-to-studio/#device-requirements "device requirements") documentation
 

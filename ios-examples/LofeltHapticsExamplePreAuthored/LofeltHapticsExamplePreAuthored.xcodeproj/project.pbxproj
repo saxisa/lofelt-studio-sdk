@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A6609B326838F6E00D18FEA /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6609B126838F5700D18FEA /* LofeltHaptics.xcframework */; };
-		4A6609B426838F6E00D18FEA /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6609B126838F5700D18FEA /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A4AA85E26F8837E00206503 /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4AA85C26F8821B00206503 /* LofeltHaptics.xcframework */; };
+		4A4AA85F26F8837E00206503 /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4AA85C26F8821B00206503 /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		73C3548324B7522700DA0741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C3548224B7522700DA0741 /* AppDelegate.swift */; };
 		73C3548524B7522700DA0741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C3548424B7522700DA0741 /* SceneDelegate.swift */; };
 		73C3548724B7522700DA0741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C3548624B7522700DA0741 /* ContentView.swift */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4A6609B426838F6E00D18FEA /* LofeltHaptics.xcframework in Embed Frameworks */,
+				4A4AA85F26F8837E00206503 /* LofeltHaptics.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A6609B126838F5700D18FEA /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LofeltHaptics.xcframework; sourceTree = "<group>"; };
+		4A4AA85C26F8821B00206503 /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LofeltHaptics.xcframework; path = LofeltHapticsExamplePreAuthored/Frameworks/LofeltHaptics.xcframework; sourceTree = "<group>"; };
 		73C3547F24B7522700DA0741 /* LofeltHapticsExamplePreAuthored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LofeltHapticsExamplePreAuthored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C3548224B7522700DA0741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73C3548424B7522700DA0741 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,28 +48,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6609B326838F6E00D18FEA /* LofeltHaptics.xcframework in Frameworks */,
+				4A4AA85E26F8837E00206503 /* LofeltHaptics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A6609B026838F5700D18FEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4A6609B126838F5700D18FEA /* LofeltHaptics.xcframework */,
-			);
-			name = Frameworks;
-			path = LofeltHapticsExamplePreAuthored/Frameworks;
-			sourceTree = "<group>";
-		};
 		73C3547624B7522700DA0741 = {
 			isa = PBXGroup;
 			children = (
 				73C3548124B7522700DA0741 /* LofeltHapticsExamplePreAuthored */,
 				73C3548024B7522700DA0741 /* Products */,
-				4A6609B026838F5700D18FEA /* Frameworks */,
+				73C3549F24B757FB00DA0741 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +92,14 @@
 				73C3548B24B7522900DA0741 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73C3549F24B757FB00DA0741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4AA85C26F8821B00206503 /* LofeltHaptics.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +220,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,6 +282,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -320,7 +321,8 @@
 				DEVELOPMENT_TEAM = 9Q4R2TA9L4;
 				ENABLE_BITCODE = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = LofeltHapticsExamplePreAuthored/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,7 +345,8 @@
 				DEVELOPMENT_TEAM = 9Q4R2TA9L4;
 				ENABLE_BITCODE = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = LofeltHapticsExamplePreAuthored/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
